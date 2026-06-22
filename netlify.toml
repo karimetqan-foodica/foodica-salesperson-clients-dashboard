@@ -3,6 +3,7 @@
   publish = ".next"
 
 [build.environment]
+  NPM_CONFIG_REGISTRY = "https://registry.npmjs.org/"
   NODE_VERSION = "20"
 
 [[headers]]
